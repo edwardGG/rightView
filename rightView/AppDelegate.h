@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FSVerticalTabBarController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, FSTabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
